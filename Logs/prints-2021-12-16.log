@@ -1,0 +1,5 @@
+08:08:17.695 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x0c87dd7e5ee5024f
+08:08:24.468 [main] INFO  com.Udemy.base.Base - browser launched with login page url
+08:08:33.956 [main] INFO  com.Udemy.base.Base - signed in successfully
+08:08:34.071 [main] INFO  com.Udemy.base.Base - login name verified successfully
+08:08:34.124 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26

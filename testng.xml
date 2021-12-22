@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"  parallel = "tests" >
+<listeners>
+<listener class-name = "com.Udemy.Listeners.Listener"/>
+</listeners>
+  <test name="LoginTest">
+   <classes>
+      <class name="com.Udemy.EETest.LoginPageTest"/>
+  </classes>
+  </test> <!-- Test -->
+  <test name="HomePageTest">
+   <classes>
+      <class name ="com.Udemy.EETest.HomePageTest"/>
+    </classes>
+  </test>  
+</suite> <!-- Suite -->
