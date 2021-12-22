@@ -52,6 +52,15 @@ public class LoginPageTest extends Base{
 			log.info("login name verified successfully");
 			
 		}
+	@Test
+	public void gitDemo() {
+		System.out.println("New demoTest added ");
+	}
+	
+	@Test
+	public void gitDemo2() {
+		System.out.println("New demoTest added ");
+	}
 	
 	
 	@AfterMethod
