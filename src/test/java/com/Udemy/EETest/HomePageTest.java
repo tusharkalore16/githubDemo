@@ -43,6 +43,15 @@ public void verifyDashboardBackgroundTest() {
 	Assert.assertEquals(homepage.verifyDashboardBackground(), prop.getProperty("background-color"));
 	log.info("Background color matched");
 }
+@Test
+public void gitDemo2() {
+	System.out.println("New demoTest added ");
+}
+
+@Test
+public void gitDemo3() {
+	System.out.println("Another Test Added"); 
+}
 @AfterMethod
 public void tearDown() {
 	driver.quit();
