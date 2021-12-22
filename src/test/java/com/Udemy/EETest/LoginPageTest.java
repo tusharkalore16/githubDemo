@@ -62,6 +62,11 @@ public class LoginPageTest extends Base{
 		System.out.println("New demoTest added ");
 	}
 	
+	@Test
+	public void gitDemo3() {
+		System.out.println("Another Test Added"); 
+	}
+	
 	
 	@AfterMethod
 	public void teaerDown() {
